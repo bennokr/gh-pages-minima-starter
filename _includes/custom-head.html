@@ -1,4 +1,4 @@
 {% assign content=content | replace: '<p>', '__p__' %}
 
-<meta name="layout" content="{{layout | safe}}">
+<meta name="layout" content="{{page.layout | escape}}">
 <meta name="page" content="{{page | safe}}">
