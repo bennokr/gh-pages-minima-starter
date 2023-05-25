@@ -16,9 +16,10 @@ Do you have questions? feel free to [open an issue](https://github.com/jsanz/gh-
 print("something")
 ```
 
-<py-script>
-    print("Hello, world!")
-</py-script>
+<py-repl>
+    hello = "Hello world!"
+    hello
+</py-repl>
 
 
 For more details about how this example site works checkout [the github project](https://github.com/jsanz/gh-pages-minima-starter). Do you have questions? feel free to [open an issue](https://github.com/jsanz/gh-pages-minima-starter/issues/new/choose) or reach me from this [contact form](https://www.jorgesanz.net/contact/).
