@@ -1,4 +1,7 @@
-{% assign content=content | replace: '<p>', '__p__' %}
+{% if page.layout == 'post' %}
+<!-- PyScript -->
+<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+<script defer src="https://pyscript.net/latest/pyscript.js"></script> 
+{% endif %}
 
-<meta name="layout" content="{{page.layout | escape}}">
-<meta name="page" content="{{page | safe}}">
+{% assign content=content | replace: '<code', '<py-repl' | replace: '</code', '</py-repl' %}
