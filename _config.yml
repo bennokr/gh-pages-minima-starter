@@ -15,6 +15,10 @@ rss: rss
 # Minima: show excerpts in the frontpage
 show_excerpts: true
 
+kramdown:
+  syntax_highlighter_opts:
+    disable : true
+
 minima:
   date_format: "%Y-%m-%d"
 
